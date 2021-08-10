@@ -1,7 +1,7 @@
 using Go = import "/go.capnp";
 @0x85d3acc39d94e0f8;
 $Go.package("books");
-$Go.import("foo/books");
+$Go.import("github.com/hbagdi/capnp/serialization/books");
 
 struct Book {
 	title @0 :Text;
